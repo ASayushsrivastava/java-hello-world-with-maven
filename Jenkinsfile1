@@ -8,7 +8,7 @@ pipeline {
             }
         }
         
-        stage('List') {
+        stage('List1') {
             steps {
                 bat '''cd C:\\JenkinsAgent\\workspace\\DeclarativePipelineDemo
                     dir'''
